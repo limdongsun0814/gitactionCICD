@@ -45,7 +45,7 @@ jobs:
           cd project
           npm run build2
           ls
-          cp /build/index.html /build/404.html
+          cp build/index.html build/404.html
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{secrets.GITHYB_TOKEN}}
