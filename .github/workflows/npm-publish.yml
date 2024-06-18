@@ -36,7 +36,7 @@ jobs:
       - name: Set public url
         run: |
           echo $GITHUB_REPOSITORY
-          PUBLIC_URL = $(echo $GITHUB_REPOSITORY | sed -r 's/^.+\/(.+)$/\/\1\//')
+          PUBLIC_URL=$(echo $GITHUB_REPOSITORY | sed -r 's/^.+\/(.+)$/\/\1\//')
           echo PUBLIC_URL=$PUBLIC_URL > ./env
 
       - name: build
