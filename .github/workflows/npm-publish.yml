@@ -28,7 +28,9 @@ jobs:
         run: ls
         
       - name: Install modules
-        run: npm ci
+        run: | 
+          cd project
+          npm ci
         if: steps.cache.outputs.cache-hit != 'true'
       
       - name: Set public url
