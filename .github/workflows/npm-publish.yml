@@ -24,7 +24,9 @@ jobs:
           key: ${{runner.os}}-node-${{hashFiles('**/package-lock.json')}}
 
           restore-keys: ${{runner.os}}-node-
-      
+      - name: list
+        run: ls
+        
       - name: Install modules
         run: npm ci
         if: steps.cache.outputs.cache-hit != 'true'
