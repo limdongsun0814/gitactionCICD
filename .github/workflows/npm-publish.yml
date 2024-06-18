@@ -44,6 +44,7 @@ jobs:
           ls
           cd project
           npm run build
+          ls
           cp ./build/index.html ./build/404.html
       - uses: peaceiris/actions-gh-pages@v3
         with:
