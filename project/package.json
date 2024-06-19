@@ -1,5 +1,6 @@
 {
   "name": "project",
+  "homepage": "https://limdongsun0814.github.io/gitactionCICD/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

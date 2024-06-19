@@ -22,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />}></Route>
             <Route path="/react" element={<Main />}></Route>
+            <Route path="/gitactionCICD" element={<Main />}></Route>
           </Routes>
         </BrowserRouter>
       </div>
