@@ -56,9 +56,13 @@ jobs:
 ```
 
 CICD 이벤트 시점
+<br>
 pull_request: 워크플로 리포지토리의 끌어오기 요청에 대한 작업이 발생할때 워크플로 실행
+<br>
 push: push할 경우 방생
+<br>
 workflow_dispatch: 워크플로를 수동으로 실행 가능하고 입력 값도 받을 수 있다.
+<br>
 
 ```
 on:
